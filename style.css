@@ -1,27 +1,24 @@
 body {
     font-family: sans-serif;
-     background-color: #FFA773;
+     background-color: #FFD273;
 }
 
 header{
-   background-color: #FF7940; 
+   background-color: #FFC140; 
    padding: 30px;
 }
 
 .link-header{
-    font-size: 20px;
     text-decoration: none;
+    background-color: #6D89D5;
     color: black;
-    background-color: #60D6A7;
     padding: 10px;
     border-radius: 10px;
 }
 
 .link-header:hover{
-    padding: 20px;
-    border-radius: 15px;
-    font-size: 30px;
     font-weight: bolder;
+    box-shadow:3px 5px 10px black;
 }
 
 
@@ -33,27 +30,28 @@ nav{
 
 .link-nav{
     text-decoration: none;
+    padding: 5px;
     color: black;
+    background-color:#6D89D5;
+    box-shadow: 3px 5px 5px black;
+    border-radius: 5px;
 }
 
 .link-nav:hover{
     font-size: 20px;
-    color: #00AE68;
+    color: #6D89D5;
+    background-color: white;
 }
+
 
 h1{
     text-align: center;
     font-size: 50px;
 }
 
-p{
-    font-size: 20px;
-    display: flex;
-    justify-content: space-between;
-    padding-left: 50px;   
+ul{
+    font-size: 25px; 
 }
-
-
 
 .social{
     padding: 10px;
